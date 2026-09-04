@@ -102,3 +102,13 @@ muestra este comando.
 
 ## ✅ Entrega
 Link de tu repositorio (fork) + pantallazo de "git log --oneline"
+
+
+
+##  Investigación adicional
+
+El comando `git reflog` muestra el historial de movimientos del 
+puntero HEAD (commits, amends, resets, etc.), incluyendo commits 
+que ya no aparecen en `git log` por haber sido reescritos. Es útil 
+para recuperar cambios que parecían perdidos, ya que Git los 
+conserva temporalmente antes de eliminarlos definitivamente.
